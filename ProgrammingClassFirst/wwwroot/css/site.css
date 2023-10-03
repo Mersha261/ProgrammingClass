@@ -7,11 +7,26 @@
     src: url('SiteFont/Iransans.ttf') format('truetype');
 }
 
+a:link{
+    text-decoration:none !important
+}
+a:visited {
+    text-decoration: none !important
+}
+a:hover {
+    text-decoration: none !important
+}
+a:active {
+    text-decoration: none !important
+}
+
+
+
 body {
     font-family: Iransans;
 }
 
-.fa-shopping-cart, .fa-sign-in, .fa-heart, .fa-user {
+.fa-shopping-cart, .fa-sign-in, .fa-heart, .fa-user, .fa-home, .fa-list, .fa-info, .fa-phone{
     font-size: 30px;
     color: #1a92bc;
 }
@@ -90,7 +105,37 @@ body {
     transform: rotate(45deg);
     box-shadow: -2px -2px 0px -2px #959595;
 }
+.direction-ltr {
+    direction: ltr !important
+}
+.direction-rtl {
+    direction: rtl !important
+}
+.theme-line {
+    width: 100%;
+    height: 1px;
+    border: 1px solid #1a92bc;
+    margin:15px 0px;
+}
+.fontsize-20 {
+    font-size: 20px !important;
+}
 
-
-
-
+.fontsize-30 {
+    font-size: 30px !important;
+}
+.text-align-justify{
+    text-align:justify
+}
+.fa-arrow-up{
+    margin:13px;
+}
+.go-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 15px;
+    width: 55px;
+    height: 65px;
+    z-index: 1100;
+    opacity:.7;
+}

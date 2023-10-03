@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ProgrammingClassFirst.styles.css" asp-append-version="true" />
+    <link href="~/slickslider/slick/slick.css" rel="stylesheet" />
+    <link href="~/slickslider/slick/slick-theme.css" rel="stylesheet" />
 </head>
-<body>
+<body id="body">
     <header>
         <div class="container mt-3">
             <div class="row">
@@ -114,55 +116,255 @@
                 <div class="collapse navbar-collapse" id="collapsibleNavbar">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">صفحه اصلی</a>
+                            <a class="nav-link" href="/Home/Index">صفحه اصلی</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">محصولات</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">درباره ما</a>
+                            <a class="nav-link" href="/Home/AboutUs">درباره ما</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">تماس با ما</a>
+                            <a class="nav-link" href="/Home/ContactUs">تماس با ما</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
     </header>
-        <div class="container">
-            <div class="row">
+   
+    <div class="container bg-light">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    <div class="container-fluid bg-light mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="text-center mt-3">
+                    <strong class="theme">پیوند های سایت</strong>
+                </div>
+                <div class="theme-line"></div>
+                <a class="d-block mt-2" href="/Home/Index"> <i class="fa fa-home fontsize-20"></i> صفحه اصلی</a>
+
+                <a class="d-block mt-2" href="#"> <i class="fa fa-list fontsize-20"></i> محصولات</a>
+
+                <a class="d-block mt-2" href="/Home/AboutUs"> <i class="fa fa-info fontsize-20"></i> درباره ما</a>
+
+                <a class="d-block mt-2" href="#"> <i class="fa fa-phone fontsize-20"></i> تماس با ما </a>
+
+                <a class="d-block mt-2" href="#"> <i class="fa fa-sign-in fontsize-20"></i> ورود </a>
+
+                <a class="d-block mt-2" href="#"> <i class="fa fa-user fontsize-20"></i> ثبت نام </a>
+
+                <a class="d-block mt-2" href="#"> <i class="fa fa-shopping-cart fontsize-20"></i> سبد خرید </a>
+                <div class="text-center mt-3">
+                    <strong class="theme">شبکه های اجتماعی ما را حمایت کنید</strong>
+                </div>
+                <div class="theme-line"></div>
+                <a class="theme m-2" href="https://instagram.com/Mersha261" target="_blank"><i class="fa fa-instagram fontsize-30"></i> </a>
+                <a class="theme m-2" href="https://telegram.me/Mersha261" target="_blank"><i class="fa fa-telegram fontsize-30"></i> </a>
+                <a class="text-danger m-2" href="https://youtube.com/Mersha261" target="_blank"><i class="fa fa-youtube fontsize-30"></i> </a>
+                <a class="theme m-2" href="https://twitter.com/Mersha261" target="_blank"><i class="fa fa-twitter fontsize-30"></i> </a>
+                <a class="text-primary m-2" href="https://www.linkedin.com/in/mohammad-rajabi261/" target="_blank"><i class="fa fa-linkedin fontsize-30"></i> </a>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center mt-3">
+                    <strong class="theme">مختصری درباره ما</strong>
+                </div>
+                <div class="theme-line"> </div>
+                <div class="text-align-justify">
+                    لورم ایپسوم
+                    متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از
+                    طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و
+                    سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز،
+                    و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+                    کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه
+                    و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان
+                    رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                    در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
+                    و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی،
+                    و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="text-center mt-3">
+                    <strong class="theme">پل های ارتباطی</strong>
+                </div>
+                <div class="theme-line"></div>
+                <div>
+                    <span>شماره تماس:</span>
+                    <span><a href="tel:09173526957">09173526957</a> </span>
+                </div>
+                <div class="mt-2">
+                    <span>ایمیل:</span><span><a href="mailto:m.rajabi261@gmail.com"> m.rajabi261@gmail.com</a> </span>
+                </div>
+                <div class="mt-2">
+                    <span>آدرس:</span><span><a href="https://www.google.com/maps/@@31.1638221,52.648044,17.92z?entry=ttu" target="_blank"> استان فارس، شهرستان آباده</a> </span>
+                </div>
+                <div class="bg-white mt-2 p-2 border-1 rounded">
+                    <div class="text-center mt-3">
+                        <strong class="theme">ارسال نظر</strong>
+                    </div>
+                    <div class="theme-line"></div>
+                    <form>
+                        <input type="text" placeholder="نام و نام خانوادگی" class="form-control" required />
+                        <textarea class="form-control mt-2" placeholder="متن پیغام شما" required rows="4"></textarea>
+                        <input type="submit" class="btn btn-block btn-sm bg-theme text-white mt-2" value="ارسال نظر" />
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container-fluid">
+        <div class="row">
             <div class="col-md-12">
+                <div class="border-top ">
+                    &copy; 2023 -  تمامی حقوق مادی و معنوی این وبسایت محفوظ و متعلق به محمد رجبی است- <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                 </div>
             </div>
         </div>
-    <div class="container">
-        <main role="main" class="pb-3 mt-4">
-            @RenderBody()
-            لورم ایپسوم متن ساختگی با تولید
-            سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و
-            متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط ف
-            علی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
-            می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان
-            جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طر
-            احان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد
-            کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها،
-            و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصل
-            ی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-        </main>
     </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - ProgrammingClassFirst - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <div class="bg-theme text-white go-to-top">
+        <a href="#body"><i class="fa fa-arrow-up text-white fontsize-30"></i></a>
+    </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <!-- Popper JS -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/slickslider/slick/slick.min.js"></script>
+
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        $(".lazy").slick({
+            infinite: true,
+            dots: false,
+            speed: 900,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 3000,
+        });
+
+        $("#newProduct").slick({
+            infinite: true,
+            dots: false,
+            speed: 900,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1250,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+
+        $("#mostSoldProduct").slick({
+            infinite: true,
+            dots: false,
+            speed: 900,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1250,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false
+                    }
+                }
+            ]
+        });
+
+        $("#mostViewedProduct").slick({
+            infinite: true,
+            dots: false,
+            speed: 900,
+            slidesToShow: 4,
+            slidesToScroll: 2,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                    breakpoint: 1250,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        dots: false
+                    }
+                }
+            ]
+        });
+    </script>
 </body>
 </html>

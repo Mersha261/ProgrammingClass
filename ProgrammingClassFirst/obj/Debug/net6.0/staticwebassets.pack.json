@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\Images\\logo.png"
     },
     {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Pic\\Steve-Jobs-Quotes-18.jpg",
+      "PackagePath": "staticwebassets\\Pic\\Steve-Jobs-Quotes-18.jpg"
+    },
+    {
       "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Pic\\WP2013.1 1024x768 (17).jpg",
       "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (17).jpg"
     },
@@ -41,44 +45,8 @@
       "PackagePath": "staticwebassets\\Pic\\WP2013.1 1024x768 (24).jpg"
     },
     {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\pb-beer-1513436-1600.jpg",
-      "PackagePath": "staticwebassets\\Slider\\img\\pb-beer-1513436-1600.jpg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\px-apartment-chairs-contemporary-2015560-1600.jpg",
-      "PackagePath": "staticwebassets\\Slider\\img\\px-apartment-chairs-contemporary-2015560-1600.jpg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\px-back-view-boats-couple-2612852-1600.jpg",
-      "PackagePath": "staticwebassets\\Slider\\img\\px-back-view-boats-couple-2612852-1600.jpg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\spin.svg",
-      "PackagePath": "staticwebassets\\Slider\\img\\spin.svg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\wine-1600.jpg",
-      "PackagePath": "staticwebassets\\Slider\\img\\wine-1600.jpg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\wine-atlantic-ocean.png",
-      "PackagePath": "staticwebassets\\Slider\\img\\wine-atlantic-ocean.png"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\wine-badge.png",
-      "PackagePath": "staticwebassets\\Slider\\img\\wine-badge.png"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\img\\yamamoto.jpg",
-      "PackagePath": "staticwebassets\\Slider\\img\\yamamoto.jpg"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\js\\jssor.slider-28.1.0.min.js",
-      "PackagePath": "staticwebassets\\Slider\\js\\jssor.slider-28.1.0.min.js"
-    },
-    {
-      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Slider\\standard.html",
-      "PackagePath": "staticwebassets\\Slider\\standard.html"
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\Pic\\baner3.jpg",
+      "PackagePath": "staticwebassets\\Pic\\baner3.jpg"
     },
     {
       "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\css\\SiteFont\\Iransans.eot",
@@ -347,6 +315,106 @@
     {
       "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\.gitignore",
+      "PackagePath": "staticwebassets\\slickSlider\\.gitignore"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\CONTRIBUTING.markdown",
+      "PackagePath": "staticwebassets\\slickSlider\\CONTRIBUTING.markdown"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\ISSUE_TEMPLATE.md",
+      "PackagePath": "staticwebassets\\slickSlider\\ISSUE_TEMPLATE.md"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\LICENSE",
+      "PackagePath": "staticwebassets\\slickSlider"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\Makefile",
+      "PackagePath": "staticwebassets\\slickSlider"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\README.markdown",
+      "PackagePath": "staticwebassets\\slickSlider\\README.markdown"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\bower.json",
+      "PackagePath": "staticwebassets\\slickSlider\\bower.json"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\component.json",
+      "PackagePath": "staticwebassets\\slickSlider\\component.json"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\index.html",
+      "PackagePath": "staticwebassets\\slickSlider\\index.html"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\package.json",
+      "PackagePath": "staticwebassets\\slickSlider\\package.json"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick.jquery.json",
+      "PackagePath": "staticwebassets\\slickSlider\\slick.jquery.json"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\config.rb"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.css"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.js"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.less"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.min.js"
+    },
+    {
+      "Id": "E:\\Programming class\\ProgrammingClass\\ProgrammingClassFirst\\wwwroot\\slickSlider\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\slickSlider\\slick\\slick.scss"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ProgrammingClassFirst.Microsoft.AspNetCore.StaticWebAssets.props",
