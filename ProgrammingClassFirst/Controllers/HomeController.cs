@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis;
 using NuGet.Packaging;
 using ProgrammingClassFirst.Models;
 using System.Diagnostics;
@@ -16,74 +17,69 @@ namespace ProgrammingClassFirst.Controllers
 
         public IActionResult Index()
         {
-            int age = 10;
+            //کد ارسالی از درگاه پرداخت
+            //int code = 150;
 
-            string name = "Ali";
+            //string message;
 
-            bool isAliSingle = false;
+            //if (age > 20 && age <= 30 && age != 0)
+            //{
+            //    message = "age is between 20 and 30";
+            //}
+            //else if (age > 30 && age <= 40)
+            //{
+            //    message = "age is between 30 and 40";
+            //}
+            //else if (age != 50)
+            //{
+            //    message = "age is not in 50";
+            //}
+            //else
+            //{
+            //    message = "age is not in the range";
+            //}
 
-            DateTime dt = DateTime.Now;
+            //switch (code)
+            //{
+            //    case 10:
+            //        message = "تراکنش توسط کاربر لغو گردید";
+            //        break;
+            //    case 11:
+            //        message = "کارت منقضی است";
+            //        break;
+            //    case 12:
+            //        message = "موجودی ناکافی است";
+            //        break;
 
-            var aliInfo = "نام:" + name + "سن:" + age + "وضعیت تاهل:" + isAliSingle + "تاریخ تولد:" + dt;
+            //    case 13:
+            //        message = "مبلغ نا معتبر است";
+            //        break;
 
-            char theFirstAlphabetLetter = 'a';
+            //    default:
+            //        message = "تراکنش موفقیت آمیز بود";
+            //        break;
+            //}
 
-            int a = 1, b = 2, c = 3;
+            int a = 10;
+            int b = 20;
+            int c = 30;
+            int d = 40;
 
-            const string successAlert = "عضویت شما با موفیقت انجام گرفت";
+            int f = SumNumbers(a,b,c,d);
 
-
-            //لیست نمرات دانش آموزان کلاس برنامه نویسی 
-            int[] score = { 17, 18, 19, 16, 17, 18, 15, 13, 20, 19 };
-
-            //لیست اسامی دانش آموزان کلاس برنامه نویسی 
-            string[] studentsName = { "ali", "mohmmad", "reza", "mahtab", "yasi", "fateme", "amir", "iman", "yekta", "farnaz" };
-
-            string studentsScore = "";
-
-            for (int i = 0; i <= 9; i++)
-            {
-                studentsScore = studentsScore + ", نام دانش آموز " + studentsName[i] + "نمره دانش آموز: " + score[i];
-            }
-
-            foreach (var item in studentsName)
-            {
-                studentsScore = studentsScore + item;
-            }
-            foreach (var item in score)
-            {
-                studentsScore = studentsScore + "," + item;
-            }
-
-
-            int j = 0;
-            while (j < 10)
-            {
-                studentsScore = studentsScore + ", نام دانش آموز " + studentsName[j] + "نمره دانش آموز: " + score[j];
-                j++;
-            }
-            //جلسه امروز 
-            //if, else, switch case
-            //method
-
-            if (age == 20)
-            {
-                studentsScore = "age= 20";
-            }
-            else
-            {
-                studentsScore = "age is not 20";
-            }
-
-            ViewBag.student = studentsScore;
-
-
-
-
+            ViewBag.message = SomeText(a,b);
             return View();
         }
 
+        public int SumNumbers(int ali, int mohammd,int reza,int karim)
+        {
+            return reza+ali+mohammd+karim;
+        }
 
+        public string SomeText(int i, int m)
+        {
+            return i + "کمتر از" + m +"است";
+        }
 
         public IActionResult AboutUs()
         {
